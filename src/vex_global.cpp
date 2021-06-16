@@ -1,0 +1,73 @@
+#include "vex_global.h"
+
+void vex::wait(double time, timeUnits units) {}
+
+namespace vex {
+	const int32_t PORT1 = 1;
+	const int32_t PORT2 = 2;
+	const int32_t PORT3 = 3;
+	const int32_t PORT4 = 4;
+	const int32_t PORT5 = 5;
+	const int32_t PORT6 = 6;
+	const int32_t PORT7 = 7;
+	const int32_t PORT8 = 8;
+	const int32_t PORT9 = 9;
+	const int32_t PORT10 = 10;
+	const int32_t PORT11 = 11;
+	const int32_t PORT12 = 12;
+	const int32_t PORT13 = 13;
+	const int32_t PORT14 = 14;
+	const int32_t PORT15 = 15;
+	const int32_t PORT16 = 16;
+	const int32_t PORT17 = 17;
+	const int32_t PORT18 = 18;
+	const int32_t PORT19 = 19;
+	const int32_t PORT20 = 20;
+	const int32_t PORT21 = 21;
+	const int32_t PORT22 = 22;
+	const percentUnits pct = pct;
+	const timeUnits sec = sec;
+	const timeUnits msec = msec;
+	const voltageUnits volt = volt;
+	const currentUnits amp = amp;
+	const powerUnits watt = watt;
+	const torqueUnits Nm = Nm;
+	const torqueUnits InLb = InLb;
+	const rotationUnits deg = deg;
+	const rotationUnits rev = rev;
+	const velocityUnits rpm = rpm;
+	const velocityUnits dps = dps;
+	const temperatureUnits celsius = celsius;
+	const temperatureUnits fahrenheit = fahrenheit;
+	const directionType fwd = fwd;
+	const brakeType coast = brakeType::coast;
+	const brakeType brake = brakeType::brake;
+	const brakeType hold = brakeType::hold;
+	const gearSetting ratio36_1 = gearSetting::ratio36_1;
+	const gearSetting ratio18_1 = gearSetting::ratio18_1;
+	const gearSetting ratio6_1 = gearSetting::ratio6_1;
+	const color &black = color(0 );
+	const color &white = color(255, 255, 255);
+	const color &red = color(255, 0, 0);
+	const color &green = color(0, 255, 0);
+	const color &blue = color(0, 0, 255);
+	const color &yellow = color (255, 255, 0);
+	const color &orange = color(255, 165, 0);
+	const color &purple = color(128, 0, 128);
+	const color &cyan = color(0, 255, 255);
+	const color &transparent = color(255, 255, 255);	// TODO: Actually make transparent
+	const fontType mono20 = mono20;
+	const fontType mono30 = mono30;
+	const fontType mono40 = mono40;
+	const fontType mono60 = mono60;
+	const fontType mono15 = mono15;
+	const fontType mono12 = mono12;
+	const fontType prop20 = prop20;
+	const fontType prop30 = prop30;
+	const fontType prop40 = prop40;
+	const fontType prop60 = prop60;
+	const analogUnits range8bit = range8bit;
+	const analogUnits range10bit = range10bit;
+	const analogUnits range12bit = range12bit;
+	const analogUnits mV = mV;
+}
