@@ -11,6 +11,14 @@ An example project showcasing building a VEXcode C++ project on a computer.
 
 - VEXcode Pro V5 (for building for the V5)
 
+## Setup
+
+To setup:
+
+1. Build ```v5rtmod```
+2. Copy the ```v5rtmod``` library into ```vex/libv5rt/lib```
+3. Copy the ```v5rtmod``` headers into ```vex/libv5rt/include```
+
 ## Building
 
 This project uses ```VEXcode Pro V5``` (which is really just ```gcc-arm-none-eabi```) for building for the V5 and ```cmake``` for building for other architectures.
